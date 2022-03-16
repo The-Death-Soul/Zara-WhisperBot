@@ -1,5 +1,5 @@
 {
-	"name": "WhisperBot",
+	"name": "Zara WhisperBot",
 	"description": "A TeleGramBot to send messages secretly!",
 	"logo": "https://telegra.ph/file/5854f7aacd6dd0a974717.jpg",
 	"keywords": [
@@ -8,7 +8,7 @@
 		"python",
 		"telethon"
 	],
-	"repository": "https://github.com/Reeshuxd/WhisperBot",
+	"repository": "https://github.com/The-Death-Soul/Zara-WhisperBot",
 	"env": {
 		"TOKEN": {
 			"description": "Your TeleGram Bot Token ( @BotFather )",
