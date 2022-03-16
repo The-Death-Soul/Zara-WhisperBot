@@ -20,7 +20,7 @@ db = {}
 @bot.on(events.NewMessage(pattern="^[!?/]start$"))
 async def stsrt(event):
     await event.reply(
-            "**Heya, I am a Whisper Bot!**",
+            "**Heya, I am a Zara Whisper Bot!**",
             buttons=[
                 [Button.switch_inline("Go Inline", query="")]
                 ]
@@ -33,9 +33,9 @@ async def die(event):
         return
     me = (await bot.get_me()).username
     dn = event.builder.article(
-            title="It's a whisper bot!",
-            description="It's a whisper Bot!\n(c) Reeshuxd",
-            text=f"**It's a whisper bot**\n`@{me} wspr UserID|Message`\n**(c) Reeshuxd**",
+            title="It's a Zara Whisper Bot!",
+            description="It's a Zara Whisper Bot!\n(c) The_Death_Soul",
+            text=f"**It's a Zara Whisper Bot**\n`@{me} wspr UserID|Message`\n**(c) The_Death_Soul**",
             buttons=[
                 [Button.switch_inline(" Go Inline ", query="wspr ")]
                 ]
